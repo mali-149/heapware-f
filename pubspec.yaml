@@ -1,0 +1,45 @@
+name: heapware
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_spinkit:
+  cupertino_icons:
+  curved_navigation_bar:
+  video_player:
+  image_picker:
+  http:
+  fluttertoast:
+  shared_preferences:
+  get:
+  sqflite:
+  path_provider:
+  path: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+
+  flutter_lints: ^4.0.0
+
+
+
+flutter:
+  assets:
+    - assets/images/
+
+  uses-material-design: true
